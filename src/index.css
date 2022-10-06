@@ -2,6 +2,11 @@
 
 :root {
   --midpoint : 49.7vw;
+  --indent-size-left: 2em;
+  --indent-size-right: 2em;
+  --standard-section-spacing: .5em;
+  --page-break-spacing: .3em;
+  --bullets-list-margin: .3em;
 }
 
 * {
@@ -38,7 +43,7 @@ header {
 }
 /* #endregion */
 
-#viewer {
+#editor {
   border: solid orange 3px;
   width: var(--midpoint);
 }
@@ -47,6 +52,113 @@ footer {
   border: solid red 1px;
   text-align: center;
 }
+ /* JUST COPYING FROM RESUME */
 
+ /* @page {
+    size: letter;
+} */
 
+/* * {
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  font-size: 10pt;
+  margin: 0;
+}
 
+body {
+  width: 8.5in;
+  height: 11in;
+  margin: 0;
+  padding: 0;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#name {}
+
+#name-header {
+  margin-bottom: var(--standard-section-spacing);
+}
+
+.huge {
+  font-size: 2.75em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.section-category {
+  font-variant: small-caps;
+  font-size: 1.3em;
+}
+
+.page-break {
+  margin-bottom: var(--page-break-spacing);
+  border-radius: 100%;
+}
+
+.title {
+  position: relative;
+}
+
+.company {
+  position: relative;
+}
+
+.company .location {
+  position: absolute;
+  right: var(--indent-size-right);
+}
+
+.title .location {
+  position: absolute;
+  right: var(--indent-size-right);
+}
+
+.title .time-frame {
+  position: absolute;
+  right: var(--indent-size-right);
+}
+
+.company {}
+
+.company .location {}
+
+.bullets-list {
+  margin-top: var(--bullets-list-margin);
+}
+
+.bullets-list.vertical {}
+
+.bullets-list.horizontal {}
+
+.bullets-list.horizontal .bullets-list-element {
+  display: inline;
+}
+
+.bullet {}
+
+.bullet-bar {}
+
+.bullets-list-element {}
+
+#footer {}
+
+.link {}
+
+.resume-section .section-info {
+  margin-left: var(--indent-size-left);
+  margin-bottom: var(--standard-section-spacing);
+}
