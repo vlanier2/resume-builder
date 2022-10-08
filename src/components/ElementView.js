@@ -5,9 +5,6 @@ import Elements from './Elements'
 const ElementView = () => {
   return (
     <div id='elementview'>
-
-        <span>Elements</span>
-        <Button text='New Element' color='green'/>
         <div>
           <Elements/>
         </div>

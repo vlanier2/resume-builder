@@ -19,6 +19,10 @@ body {
   font-family: 'Poppins', 'sans-serif';
 }
 
+li {
+  list-style: None;
+}
+
 /*  */
 
 header {
@@ -32,7 +36,6 @@ header {
   border: solid green 2px;
   height:90vh;
   width: auto;
-  text-align: center;
 }
 
 /* ELEMENTS COMPONENT */
@@ -41,6 +44,13 @@ header {
   border: solid yellow 3px;
   width: var(--midpoint);
 }
+
+.elements {
+  /* overflow: auto;
+  width: 8.5in;
+  height: 11in; */
+}
+
 /* #endregion */
 
 #editor {
@@ -53,6 +63,8 @@ footer {
   text-align: center;
 }
  /* JUST COPYING FROM RESUME */
+
+/* #region */
 
  /* @page {
     size: letter;
@@ -140,7 +152,9 @@ a {
   margin-top: var(--bullets-list-margin);
 }
 
-.bullets-list.vertical {}
+.bullets-list.vertical {  
+  padding-inline-start: 40px;
+}
 
 .bullets-list.horizontal {}
 
@@ -158,7 +172,9 @@ a {
 
 .link {}
 
-.resume-section .section-info {
+.section-info {
   margin-left: var(--indent-size-left);
   margin-bottom: var(--standard-section-spacing);
 }
+
+/* #endregion */

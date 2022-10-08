@@ -1,3 +1,40 @@
+# DONE
+
+resume mockup --
+    set up html index and files
+    made css definitions first
+    added html structure with classes
+    added css styling
+
+create react app --
+    set up app layout. header, footer, editor, viewer. Some Styling for a mockup
+    figured out how I wanted to dynamically make components based on type. not sure if this is a great way to do it
+    built up a few resume element components
+    started todo list and notes
+
+# TO DO
+
+figure out how to lock viewer size to 8.5/11 and overflow auto without breaking layout...
+
+make classes dynamically add to components on creation. right now a lot of them are hard coded.. 
+this could be ok for defaults, but probably best to use real defaults. Either way should be set up to 'add a class' 
+when an option is selected on the editor
+
+# NOTES
+
+some of my initial styling should have been more 'class based'
+
+seemed simpler to not 'nest' as many html elements in the final resume. I doubt this will have a negative impact on 
+machine readability - and will be able to avoid nesting react components.
+
+# TOOLS
+vscode
+react
+react dev extension for chrome
+browser sync
+
+# STANDARD CREATE REACT APP README BELOW
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

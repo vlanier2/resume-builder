@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Name = ({ args }) => {
+const Name = ({ prps }) => {
   return (
-        <h1 id="name" className="centered bold huge">{args.text}</h1>
+        <h1 id="name" className="centered bold huge">{prps.text}</h1>
   )
 }
 
