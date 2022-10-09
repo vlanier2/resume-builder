@@ -20,6 +20,8 @@ make classes dynamically add to components on creation. right now a lot of them 
 this could be ok for defaults, but probably best to use real defaults. Either way should be set up to 'add a class' 
 when an option is selected on the editor
 
+Build out the 'add element' component separate from the 'add x' components. the 'add x' components will be listed underneath and hopefully be editable
+
 # NOTES
 
 some of my initial styling should have been more 'class based'
