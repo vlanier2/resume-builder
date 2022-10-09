@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 :root {
-  --midpoint : 49.7vw;
+  --midpoint : 50%;
   --indent-size-left: 2em;
   --indent-size-right: 2em;
   --standard-section-spacing: .5em;
@@ -42,7 +42,7 @@ header {
 /* #region */
 #elementview {
   border: solid yellow 3px;
-  width: var(--midpoint);
+  width: 50%;
 }
 
 .elements {
@@ -55,7 +55,7 @@ header {
 
 #editor {
   border: solid orange 3px;
-  width: var(--midpoint);
+  width: 50%;
 }
 
 footer {
