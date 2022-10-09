@@ -1,22 +1,23 @@
 import React from 'react'
+import { useState } from 'react'
+import AddNameHeader from './AddNameHeader'
+import AddSection from './AddSection'
 
 const AddElement = () => {
+
   return (
-    <form className='add-form'>
-        <div className='form-control'>
-            <label>Element</label>
+    <div className='add-form'>
+          <label>Element</label>
 
-            <select id='select-elements'>
-                <option>Name Header</option>
-                <option>Section</option>
-                <option>Experience</option>
-            </select>
-
-            <input type='text' placeholder='textplaceholder'/>
-            <input type='submit' value='UPDATE ELEMENT'/>
-
-        </div>
-    </form>
+          <select id='select-elements'>
+              <option>Name Header</option>
+              <option>Section</option>
+              <option>Experience</option>
+          </select>
+          <input type='submit' value='ADD ELEMENT'/>
+      <AddNameHeader/>
+      <AddSection/>
+    </div>
   )
 }
 
