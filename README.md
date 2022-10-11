@@ -4,13 +4,16 @@ Meant to be a resume building app to gain experience building something from scr
 
 Design - 
 
-editor side:            viewer side:
-add elements.           on update -> show an html properly styled and formatted resume based on the
-edit elements.                          elements added in the editor. Export to PDF or possibly compile and show PDF in browser
+editor side:            
+add elements.           
+edit elements.                          
 reorder elements.
 style elements.
 update elements.
 
+viewer side:
+on update -> show an html properly styled and formatted resume based on the
+elements added in the editor. Export to PDF or possibly compile and show PDF in browser
 
 TOOLS - 
 vscode
