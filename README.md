@@ -1,4 +1,24 @@
-# DONE
+# Work In Progress
+
+Meant to be a resume building app to gain experience building something from scratch in React.
+
+Design - 
+
+editor side:            viewer side:
+add elements.           on update -> show an html properly styled and formatted resume based on the
+edit elements.                          elements added in the editor. Export to PDF or possibly compile and show PDF in browser
+reorder elements.
+style elements.
+update elements.
+
+
+TOOLS - 
+vscode
+react
+react dev extension for chrome
+browser sync
+
+# DONE SO FAR
 
 resume mockup --
     set up html index and files
@@ -14,7 +34,9 @@ create react app --
 
 # TO DO
 
-figure out how to lock viewer size to 8.5/11 and overflow auto without breaking layout...
+general clean up
+
+figure out how to lock viewer size to 8.5/11 and overflow auto without breaking layout
 
 make classes dynamically add to components on creation. right now a lot of them are hard coded.. 
 this could be ok for defaults, but probably best to use real defaults. Either way should be set up to 'add a class' 
@@ -29,11 +51,7 @@ some of my initial styling should have been more 'class based'
 seemed simpler to not 'nest' as many html elements in the final resume. I doubt this will have a negative impact on 
 machine readability - and will be able to avoid nesting react components.
 
-# TOOLS
-vscode
-react
-react dev extension for chrome
-browser sync
+_____________________
 
 # STANDARD CREATE REACT APP README BELOW
 
